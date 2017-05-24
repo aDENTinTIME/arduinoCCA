@@ -1,6 +1,6 @@
 ##### arduinoCCA
 
-# HW May 24, 2017
+## HW May 24, 2017
 ___
 void setup() {
   // initialize digital pins 11 & 12 as outputs.
