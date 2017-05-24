@@ -1,7 +1,7 @@
 ##### arduinoCCA
 
 
-## HW May 24, 2017
+## May 24, 2017
 void setup() {
   // initialize digital pins 11 & 12 as outputs.
   pinMode(11, OUTPUT);
