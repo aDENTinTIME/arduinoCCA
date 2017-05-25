@@ -13,7 +13,7 @@ void loop() {
   analogWrite(led, brightness);
 }
 ```
-`This gave me an error becuase I was trying to "redefine" the integer.`
+>This gave me an error becuase I was trying to "redefine" the integer.
 
 **Second:**
 ```
@@ -24,7 +24,7 @@ void loop() {
   analogWrite(led + led2, brightness);
 }
 ```
-`This compiled and uploaded fine, but didn't blink EITHER LED, after looking at it written out I realized what the program was doing, (obviously) it was sending a signal to PIN 10 as it added the two integers together. This however gave me an idea.`
+>This compiled and uploaded fine, but didn't blink EITHER LED, after looking at it written out I realized what the program was doing, (obviously) it was sending a signal to PIN 10 as it added the two integers together. This however gave me an idea.
 
 **Third:**
 ```
@@ -35,12 +35,13 @@ void loop() {
   analogWrite(led + led2, brightness);
 }
 ```
-`YAY... I got the first LED blinking (again.) This wasn't really a huge revelation but it's interesting nonetheless to me.`
+>YAY... I got the first LED blinking (again.) This wasn't really a huge revelation but it's interesting nonetheless to me.
 
 **Conclusion:**
 ```
 1+2=3
 ```
+
 
 
 ## May 24, 2017
